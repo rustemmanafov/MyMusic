@@ -13,9 +13,9 @@
 		4685F7062914507100805CBF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4685F7042914507100805CBF /* Main.storyboard */; };
 		4685F7082914507300805CBF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4685F7072914507300805CBF /* Assets.xcassets */; };
 		4685F70B2914507300805CBF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4685F7092914507300805CBF /* LaunchScreen.storyboard */; };
-		4685F7162914520600805CBF /* Jah Khalib isgal nasel (YUKLE).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4685F7132914520500805CBF /* Jah Khalib isgal nasel (YUKLE).mp3 */; };
-		4685F7172914520600805CBF /* lp-lost-on-you_456288858.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4685F7142914520600805CBF /* lp-lost-on-you_456288858.mp3 */; };
-		4685F7182914520600805CBF /* Ava_Max_-_So_Am_I_(ColdMP3.com).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4685F7152914520600805CBF /* Ava_Max_-_So_Am_I_(ColdMP3.com).mp3 */; };
+		4685F7162914520600805CBF /* song2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4685F7132914520500805CBF /* song2.mp3 */; };
+		4685F7172914520600805CBF /* song3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4685F7142914520600805CBF /* song3.mp3 */; };
+		4685F7182914520600805CBF /* song1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4685F7152914520600805CBF /* song1.mp3 */; };
 		4685F71A291457CA00805CBF /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4685F719291457CA00805CBF /* PlayerViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -28,9 +28,9 @@
 		4685F7072914507300805CBF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4685F70A2914507300805CBF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4685F70C2914507300805CBF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4685F7132914520500805CBF /* Jah Khalib isgal nasel (YUKLE).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Jah Khalib isgal nasel (YUKLE).mp3"; sourceTree = "<group>"; };
-		4685F7142914520600805CBF /* lp-lost-on-you_456288858.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "lp-lost-on-you_456288858.mp3"; sourceTree = "<group>"; };
-		4685F7152914520600805CBF /* Ava_Max_-_So_Am_I_(ColdMP3.com).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Ava_Max_-_So_Am_I_(ColdMP3.com).mp3"; sourceTree = "<group>"; };
+		4685F7132914520500805CBF /* song2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song2.mp3; sourceTree = "<group>"; };
+		4685F7142914520600805CBF /* song3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song3.mp3; sourceTree = "<group>"; };
+		4685F7152914520600805CBF /* song1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = song1.mp3; sourceTree = "<group>"; };
 		4685F719291457CA00805CBF /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -80,9 +80,9 @@
 		4685F7122914508000805CBF /* Audio */ = {
 			isa = PBXGroup;
 			children = (
-				4685F7152914520600805CBF /* Ava_Max_-_So_Am_I_(ColdMP3.com).mp3 */,
-				4685F7132914520500805CBF /* Jah Khalib isgal nasel (YUKLE).mp3 */,
-				4685F7142914520600805CBF /* lp-lost-on-you_456288858.mp3 */,
+				4685F7152914520600805CBF /* song1.mp3 */,
+				4685F7132914520500805CBF /* song2.mp3 */,
+				4685F7142914520600805CBF /* song3.mp3 */,
 			);
 			path = Audio;
 			sourceTree = "<group>";
@@ -145,10 +145,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4685F7162914520600805CBF /* Jah Khalib isgal nasel (YUKLE).mp3 in Resources */,
-				4685F7182914520600805CBF /* Ava_Max_-_So_Am_I_(ColdMP3.com).mp3 in Resources */,
+				4685F7162914520600805CBF /* song2.mp3 in Resources */,
+				4685F7182914520600805CBF /* song1.mp3 in Resources */,
 				4685F70B2914507300805CBF /* LaunchScreen.storyboard in Resources */,
-				4685F7172914520600805CBF /* lp-lost-on-you_456288858.mp3 in Resources */,
+				4685F7172914520600805CBF /* song3.mp3 in Resources */,
 				4685F7082914507300805CBF /* Assets.xcassets in Resources */,
 				4685F7062914507100805CBF /* Main.storyboard in Resources */,
 			);
