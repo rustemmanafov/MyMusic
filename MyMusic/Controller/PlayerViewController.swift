@@ -106,7 +106,6 @@ class PlayerViewController: UIViewController {
                                       width: holder.frame.size.width - 20,
                                       height: 70)
         
-        
         songNameLabel.text = song.name
         artistNameLabel.text = song.artistName
         albumNameLabel.text = song.albumName
@@ -136,9 +135,6 @@ class PlayerViewController: UIViewController {
                                   width: size,
                                   height: size)
         
-        
-        
-        
         playPauseButton.addTarget(self, action: #selector(didTapPlayPauseButton), for: .touchUpInside)
         nextButton.addTarget(self, action: #selector(didTapNextButton), for: .touchUpInside)
         backButton.addTarget(self, action: #selector(didTapBackButton), for: .touchUpInside)
@@ -155,10 +151,6 @@ class PlayerViewController: UIViewController {
         holder.addSubview(playPauseButton)
         holder.addSubview(nextButton)
         holder.addSubview(backButton)
-        
-        
-        
-        
         
         let slider = UISlider(frame: CGRect(x: 20,
                                             y: holder.frame.size.height - 60,
@@ -228,5 +220,4 @@ class PlayerViewController: UIViewController {
             player.stop()
         }
     }
-    
 }
