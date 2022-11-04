@@ -12,7 +12,7 @@ class ViewController: UIViewController {
     @IBOutlet var tableView: UITableView!
     
     var songs = [Song]()
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         configureSong()
@@ -20,23 +20,23 @@ class ViewController: UIViewController {
         tableView.dataSource = self
     }
     
-
+    
     private func configureSong() {
         songs.append(Song(name: "So am i",
-                     albumName: "So",
-                     artistName: "Ava",
-                     imageName: "cover1",
-                     trackName: "song1"))
+                          albumName: "So",
+                          artistName: "Ava",
+                          imageName: "cover1",
+                          trackName: "song1"))
         songs.append(Song(name: "Iscal nasel",
-                     albumName: "Nasel",
-                     artistName: "Jah Khalib",
-                     imageName: "cover2",
-                     trackName: "song2"))
+                          albumName: "Nasel",
+                          artistName: "Jah Khalib",
+                          imageName: "cover2",
+                          trackName: "song2"))
         songs.append(Song(name: "Lost on you",
-                     albumName: "Lost",
-                     artistName: "Lp",
-                     imageName: "cover3",
-                     trackName: "song3"))
+                          albumName: "Lost",
+                          artistName: "Lp",
+                          imageName: "cover3",
+                          trackName: "song3"))
     }
     
 }
@@ -53,6 +53,8 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
         cell.detailTextLabel?.text = song.albumName
         cell.imageView?.image = UIImage(named: song.imageName)
         cell.accessoryType = .disclosureIndicator
+        cell.textLabel?.font = UIFont(name: "Helvetica-Bold", size: 18)
+        cell.detailTextLabel?.font = UIFont(name: "Helvetica", size: 17)
         return cell
     }
     
@@ -71,7 +73,6 @@ extension ViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         100
     }
-    
 }
 
 struct Song {

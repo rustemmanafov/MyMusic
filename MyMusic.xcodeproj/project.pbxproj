@@ -64,14 +64,11 @@
 		4685F6FD2914507100805CBF /* MyMusic */ = {
 			isa = PBXGroup;
 			children = (
+				4685F71C2914787B00805CBF /* Supporting Files */,
 				4685F7122914508000805CBF /* Audio */,
-				4685F6FE2914507100805CBF /* AppDelegate.swift */,
-				4685F7002914507100805CBF /* SceneDelegate.swift */,
-				4685F7022914507100805CBF /* ViewController.swift */,
-				4685F719291457CA00805CBF /* PlayerViewController.swift */,
-				4685F7042914507100805CBF /* Main.storyboard */,
+				4685F71B2914785A00805CBF /* Controller */,
+				4685F71D2914789400805CBF /* Main */,
 				4685F7072914507300805CBF /* Assets.xcassets */,
-				4685F7092914507300805CBF /* LaunchScreen.storyboard */,
 				4685F70C2914507300805CBF /* Info.plist */,
 			);
 			path = MyMusic;
@@ -85,6 +82,33 @@
 				4685F7142914520600805CBF /* song3.mp3 */,
 			);
 			path = Audio;
+			sourceTree = "<group>";
+		};
+		4685F71B2914785A00805CBF /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4685F7022914507100805CBF /* ViewController.swift */,
+				4685F719291457CA00805CBF /* PlayerViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4685F71C2914787B00805CBF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4685F6FE2914507100805CBF /* AppDelegate.swift */,
+				4685F7002914507100805CBF /* SceneDelegate.swift */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4685F71D2914789400805CBF /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				4685F7042914507100805CBF /* Main.storyboard */,
+				4685F7092914507300805CBF /* LaunchScreen.storyboard */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
